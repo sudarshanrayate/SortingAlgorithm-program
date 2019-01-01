@@ -1,8 +1,8 @@
 import java.io.*;
 import java.lang.*;
 
-class Sorting {
-    public static void BubbleSort(int arr[], int option) {
+class BubbleSort {
+    public static void BubbleSortX(int arr[], int option) {
         int x = 0, y = 0;
         int i = 0, j = 0;
         int pass = 0;
@@ -52,7 +52,7 @@ class Sorting {
         // second parameter of BubbleSort
         // if you want array sort in assending order enter 1
         // if you wand array sort in decending order enter 2
-        BubbleSort(brr, 2);
+        BubbleSortX(brr, 2);
 
     }
 }
